@@ -42,6 +42,10 @@
                 description: "Cria um novo projeto Laravel."
             },
             {
+                command: "composer create-project laravel/laravel .",
+                description: "Cria um novo projeto, estando dentro da pasta."
+            },
+            {
                 command: "php artisan serve",
                 description: "Inicia o servidor de desenvolvimento."
             },
