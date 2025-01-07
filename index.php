@@ -6,27 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comandos Laravel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-    .category-box {
-        background-color: #f8f9fa;
-        border: 1px solid #dee2e6;
-        border-radius: 0.25rem;
-        padding: 1rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .command-box {
-        background-color: #ffffff;
-        border: 1px solid #ced4da;
-        border-radius: 0.25rem;
-        padding: 1rem;
-        margin-bottom: 1rem;
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
 </head>
 
 <body>
     <div class="container my-5">
+
+        <h1 class="mb-4">Guia Laravel</h1>
+
+        <section class="mb-5">
+            <h2>Pré-requisitos para Criar e Desenvolver um Projeto Laravel</h2>
+            <p>Antes de começar a trabalhar com Laravel, certifique-se de ter os seguintes requisitos instalados:</p>
+            <ul>
+                <li><strong>PHP:</strong> Versão 8.1 ou superior.</li>
+                <li><strong>Composer:</strong> Gerenciador de dependências para PHP.</li>
+                <li><strong>Banco de Dados:</strong> MySQL, PostgreSQL, SQLite ou outro suportado pelo Laravel.</li>
+                <li><strong>Node.js e NPM:</strong> Necessários para compilação de assets front-end (opcional, mas
+                    recomendado).</li>
+            </ul>
+        </section>
+        <section class="mb-5">
+            <h2>Passo a Passo para Criar um Novo Projeto Laravel</h2>
+            <ol>
+                <li>
+                    Abra o terminal e execute o comando:
+                    <strong>composer create-project laravel/laravel nome-do-projeto</strong>
+                </li>
+                <li>
+                    Entre na pasta do projeto recém-criado:
+                    <strong>cd nome-do-projeto</strong>
+                </li>
+                <li>
+                    Inicie o servidor local de desenvolvimento:
+                    <strong>php artisan serve</strong>
+                </li>
+                <li>
+                    Abra o navegador e acesse:
+                    <strong>http://localhost:8000</strong>
+                </li>
+            </ol>
+        </section>
+
+        <section class="mb-5">
+            <h2>Passo a Passo para Executar um Projeto Laravel Clonado do GitHub</h2>
+            <ol>
+                <li>
+                    Clone o repositório desejado:
+                    <strong>git clone https://github.com/usuario/repositorio.git</strong>
+                </li>
+                <li>
+                    Entre na pasta do projeto:
+                    <strong>cd repositorio</strong>
+                </li>
+                <li>
+                    Instale as dependências do projeto:
+                    <strong>composer install</strong>
+                </li>
+                <li>
+                    Copie o arquivo <code>.env.example</code> para <code>.env</code>:
+                    <strong>cp .env.example .env</strong>
+                </li>
+                <li>
+                    Gere a chave da aplicação:
+                    <strong>php artisan key:generate</strong>
+                </li>
+                <li>Configure as informações do banco de dados no arquivo <code>.env</code>.</li>
+                <li>
+                    Execute as migrações para criar as tabelas no banco de dados:
+                    <strong>php artisan migrate</strong>
+                </li>
+                <li>
+                    Inicie o servidor local de desenvolvimento:
+                    <strong>php artisan serve</strong>
+                </li>
+            </ol>
+        </section>
+
+
         <h1 class="mb-4">Comandos Laravel Organizados</h1>
         <p class="text-muted">Clique no botão "Copiar" para copiar os comandos para sua área de transferência.</p>
 
@@ -231,6 +288,14 @@
             alert(`Comando copiado: ${text}`);
         }).catch(err => {
             console.error('Não foi possível copiar o texto:', err);
+        });
+    }
+
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Comando copiado para a área de transferência: ' + text);
+        }).catch(err => {
+            console.error('Erro ao copiar o texto: ', err);
         });
     }
 
