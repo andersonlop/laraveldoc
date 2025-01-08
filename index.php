@@ -54,30 +54,31 @@
             <h4>Crie um arquivo de helper para sua aplicação, o helper é importante para você personalizar funções
                 específicas
                 do seu projeto, caso não saiba como fazer siga as orientações abaixo:
-            </h4>
-            <ol>
-                <li>
-                    Criação do Arquivo helpers.php
-                    <strong>
-                        Crie uma pasta chamada Helper dentro de app e em seguida <a
-                            href="https://drive.google.com/file/d/11hChm426c2DiavXsvUj_bVH1xiRCcLeR/view?usp=sharing"
-                            target="_blank">baixe
-                            aqui</a> o arquivo e coloquei dentro desta pasta.
-                    </strong>
-                </li>
-                <li>
-                    Registro no Composer.json
-                    <strong>Registre o helper no autoload do composer arquivo composer.json dentro de autoload</strong>
-
-                    "files" : [
-                    "app/Helper/helpers.php"
-                    ],
-                </li>
-                <li>
-                    Atualização do Composer
-                    <strong>composer update</strong>
-                </li>
-            </ol>
+                </h6>
+                <ol>
+                    <li>
+                        Criação do Arquivo helpers.php <br>
+                        <strong>
+                            Crie uma pasta chamada Helper dentro de app e em seguida <a
+                                href="https://drive.google.com/file/d/11hChm426c2DiavXsvUj_bVH1xiRCcLeR/view?usp=sharing"
+                                target="_blank">baixe
+                                aqui</a> o arquivo e coloquei dentro desta pasta.
+                        </strong>
+                    </li>
+                    <li>
+                        Registro no Composer.json <br>
+                        <strong>Registre o helper no autoload do composer arquivo composer.json dentro de
+                            autoload</strong>
+                        <br>
+                        "files" : [
+                        "app/Helper/helpers.php"
+                        ],
+                    </li>
+                    <li>
+                        Atualização do Composer <br>
+                        <strong>composer update</strong>
+                    </li>
+                </ol>
         </section>
 
         <section class="mb-5">
