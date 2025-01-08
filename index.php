@@ -60,7 +60,7 @@
                         Criação do Arquivo helpers.php <br>
                         <strong>
                             Crie uma pasta chamada Helper dentro de app e em seguida <a
-                                href="https://drive.google.com/file/d/11hChm426c2DiavXsvUj_bVH1xiRCcLeR/view?usp=sharing"
+                                href="https://drive.usercontent.google.com/u/0/uc?id=11hChm426c2DiavXsvUj_bVH1xiRCcLeR&export=download"
                                 target="_blank">baixe
                                 aqui</a> o arquivo e coloquei dentro desta pasta.
                         </strong>
