@@ -23,7 +23,6 @@ jobs:
           .git*
           node_modules/
           *.md
-          .github
-          README.md
+          .github         
           script.sql
          
