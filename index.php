@@ -71,9 +71,6 @@
                             autoload</strong>
                         <br>
                         <img src="images/registro_helper.png" alt="Descrição da imagem" width="300" height="200">
-                        "files" : [
-                        "app/Helper/helpers.php"
-                        ],
                     </li>
                     <li>
                         Atualização do Composer <br>
