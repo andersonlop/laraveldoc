@@ -482,18 +482,18 @@
             description: "Cria um link simbólico para o diretório 'storage/app/public'."
         }],
         "Políticas e Permissões": [{
-                command: "php artisan make:policy NomeDaPolicy",
-                description: "Cria uma policy para gerenciar permissões de usuários."
+            command: "php artisan make:policy NomeDaPolicy",
+            description: "Cria uma policy para gerenciar permissões de usuários."
+        }],
+        "Requests e Validações": [{
+                command: "php artisan make:request NomeDoRequest",
+                description: "Cria uma classe de request para validação de dados de entrada."
             },
             {
                 command: "composer require laravellegends/pt-br-validator",
                 description: "Instalar a biblioteca de Validação"
             }
         ],
-        "Requests e Validações": [{
-            command: "php artisan make:request NomeDoRequest",
-            description: "Cria uma classe de request para validação de dados de entrada."
-        }],
         "Criação de Componentes Frontend": [{
                 command: "php artisan make:component NomeDoComponente",
                 description: "Gera um componente Blade com lógica PHP e template para reutilização na interface."
