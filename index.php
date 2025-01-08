@@ -70,7 +70,7 @@
                         <strong>Registre o helper no autoload do composer arquivo composer.json dentro de
                             autoload</strong>
                         <br>
-                        <img src="images/registro_helper.png" alt="Descrição da imagem" width="300" height="200">
+                        <img src="images/registro_helper.png" width="300" height="200">
                     </li>
                     <li>
                         Atualização do Composer <br>
