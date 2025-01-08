@@ -75,8 +75,7 @@
                     <img src="images/registro_helper.png" width="300" height="200">
                 </li>
                 <li>
-                    Atualização do Composer <br>
-                    <strong>composer update</strong>
+                    Atualização do Composer: <strong>composer update</strong>
                 </li>
             </ol>
         </section>
