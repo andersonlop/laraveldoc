@@ -490,9 +490,14 @@
             description: "Cria uma classe de request para validação de dados de entrada."
         }],
         "Criação de Componentes Frontend": [{
-            command: "php artisan make:component NomeDoComponente",
-            description: "Gera um componente Blade com lógica PHP e template para reutilização na interface."
-        }],
+                command: "php artisan make:component NomeDoComponente",
+                description: "Gera um componente Blade com lógica PHP e template para reutilização na interface."
+            },
+            {
+                command: "php artisan make:component User/NomeDoComponente",
+                description: "Gera um componente Blade com lógica PHP e template para reutilização na interface em pasta separadas"
+            }
+        ],
         "Utilitários": [{
                 command: "php artisan list",
                 description: "Lista todos os comandos disponíveis no Artisan."
