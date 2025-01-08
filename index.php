@@ -494,7 +494,7 @@
                 description: "Gera um componente Blade com lógica PHP e template para reutilização na interface."
             },
             {
-                command: "php artisan make:component User/NomeDoComponente",
+                command: "php artisan make:component NomePasta/NomeDoComponente",
                 description: "Gera um componente Blade com lógica PHP e template para reutilização na interface em pasta separadas"
             }
         ],
