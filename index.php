@@ -14,8 +14,9 @@
 
 <body>
     <div class="container my-5">
-
         <h1 class="mb-4">Guia Laravel</h1>
+
+        <!-- Pré-requisitos -->
         <section class="mb-5">
             <h2>Pré-requisitos para Criar e Desenvolver um Projeto Laravel</h2>
             <p>Antes de começar a trabalhar com Laravel, certifique-se de ter os seguintes requisitos instalados:</p>
@@ -27,6 +28,8 @@
                     recomendado).</li>
             </ul>
         </section>
+
+        <!-- Criando um Novo Projeto Laravel -->
         <section class="mb-5">
             <h2>Passo a Passo para Criar um Novo Projeto Laravel</h2>
             <ol>
@@ -49,30 +52,33 @@
             </ol>
         </section>
 
+        <!-- Criação do Helper -->
         <section class="mb-5">
             <h2>Criação do Helper</h2>
             <p>
-                Crie um arquivo de helper para sua aplicação, o helper é importante para você personalizar funções
-                específicas
-                do seu projeto, caso não saiba como fazer siga as orientações abaixo:
+                Crie um arquivo de helper para sua aplicação. O helper é importante para personalizar funções
+                específicas do seu projeto. Caso não saiba como fazer, siga as orientações abaixo:
             </p>
-
             <ol>
                 <li>
-                    Criação do Arquivo helpers.php <br>
+                    Criação do Arquivo helpers.php
+                    <br>
                     <strong>
-                        Crie uma pasta chamada Helper dentro de app e em seguida <a
-                            href="https://drive.usercontent.google.com/u/0/uc?id=11hChm426c2DiavXsvUj_bVH1xiRCcLeR&export=download"
-                            target="_blank">baixe
-                            aqui</a> o arquivo e coloquei dentro desta pasta.
+                        Crie uma pasta chamada <code>Helper</code> dentro de <code>app</code> e, em seguida,
+                        <a href="https://drive.usercontent.google.com/u/0/uc?id=11hChm426c2DiavXsvUj_bVH1xiRCcLeR&export=download"
+                            target="_blank">
+                            baixe aqui
+                        </a> o arquivo e coloque-o dentro desta pasta.
                     </strong>
                 </li>
                 <li>
-                    Registro no Composer.json <br>
-                    <strong>Registre o helper no autoload do composer arquivo composer.json dentro de
+                    Registro no <code>composer.json</code>
+                    <br>
+                    <strong>Registre o helper no autoload do arquivo <code>composer.json</code> dentro de
                         autoload</strong>
                     <br>
-                    <img src="images/registro_helper.png" width="300" height="200">
+                    <img src="images/registro_helper.png" width="300" height="200"
+                        alt="Registro do helper no composer.json">
                 </li>
                 <li>
                     Atualização do Composer:
@@ -81,6 +87,7 @@
             </ol>
         </section>
 
+        <!-- Executando Projeto Laravel Clonado -->
         <section class="mb-5">
             <h2>Passo a Passo para Executar um Projeto Laravel Clonado do GitHub</h2>
             <ol>
@@ -104,7 +111,9 @@
                     Gere a chave da aplicação:
                     <strong>php artisan key:generate</strong>
                 </li>
-                <li>Configure as informações do banco de dados no arquivo <code>.env</code>.</li>
+                <li>
+                    Configure as informações do banco de dados no arquivo <code>.env</code>.
+                </li>
                 <li>
                     Execute as migrações para criar as tabelas no banco de dados:
                     <strong>php artisan migrate</strong>
@@ -116,7 +125,7 @@
             </ol>
         </section>
 
-
+        <!-- Comandos Laravel Organizados -->
         <h1 class="mb-4">Comandos Laravel Organizados</h1>
         <p class="text-muted">Clique no botão "Copiar" para copiar os comandos para sua área de transferência.</p>
 
@@ -124,6 +133,7 @@
             <!-- Categorias e comandos serão carregados dinamicamente aqui -->
         </div>
     </div>
+
 
     <script>
     // const commandCategories = {
