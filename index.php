@@ -278,6 +278,10 @@
             {
                 command: "php artisan help nome_do_comando",
                 description: "Exibe detalhes e opções para um comando específico do Artisan."
+            },
+            {
+                command: "php artisan make:component NomeDoComponente",
+                description: "Gera um componente Blade com lógica PHP e template para reutilização na interface."
             }
         ]
     };
