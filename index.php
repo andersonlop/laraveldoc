@@ -70,6 +70,7 @@
                         <strong>Registre o helper no autoload do composer arquivo composer.json dentro de
                             autoload</strong>
                         <br>
+                        <img src="images/registro_helper.png" alt="Descrição da imagem" width="300" height="200">
                         "files" : [
                         "app/Helper/helpers.php"
                         ],
