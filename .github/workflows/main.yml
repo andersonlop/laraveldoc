@@ -20,8 +20,7 @@ jobs:
         port: ${{ secrets.ftp_port }}
         server-dir: laravel/
         exclude: |
-          .git*
-          node_modules/
+          .git*         
           *.md
           .github         
           script.sql
