@@ -472,12 +472,17 @@
             }
         ],
         "Tradução e Internacionalização": [{
-                command: "composer require laravel-lang/publisher --dev",
-                description: "Instala o pacote para traduzir o Laravel para português."
+                command: "php artisan lang:publish",
+                description: "Scaffold do diretório lang."
+            },
+
+            {
+                command: "composer require lucascudo/laravel-pt-br-localization --dev",
+                description: "Instale o pacote."
             },
             {
-                command: "php artisan lang:add pt",
-                description: "Adiciona os arquivos de tradução para português no projeto."
+                command: "php artisan vendor:publish --tag=laravel-pt-br-localization",
+                description: "Publique as traduções."
             }
         ],
         "Tarefas e Filas": [{
